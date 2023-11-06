@@ -1,0 +1,24 @@
+{
+  "name": "questions",
+  "version": "1.0.0",
+  "author": "Niro Sugir",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/q-c/q-c.ts",
+    "dev:a": "nodemon src/q-a/q-a.ts",
+    "dev:b": "nodemon src/q-b/q-b.ts",
+    "dev:c": "nodemon src/q-c/q-c.ts",
+    "start:a": "ts-node src/q-a/q-a.ts",
+    "start:b": "ts-node src/q-b/q-b.ts",
+    "start:c": "ts-node src/q-c/q-c.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1"
+  }
+}
